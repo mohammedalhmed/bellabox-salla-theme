@@ -2,7 +2,7 @@
   "name": "bellabox-theme",
   "version": "2.1.0",
   "description": "BellaBox - A complete, conversion-focused Twilight theme for beauty and cosmetics stores on Salla",
-  "author": "BellaBox Development Team",
+  "author": "Mohammed Alhadrami / MAM_Tkno",
   "license": "MIT",
   "keywords": [
     "salla",
@@ -17,8 +17,8 @@
     "description": "ثيم بيلابوكس - تصميم احترافي وراقٍ لمتاجر التجميل والعناية بالبشرة على منصة سلة",
     "version": "2.1.0",
     "preview_url": "https://bellaboxksa.com",
-    "support_url": "https://github.com/mohammedalhmed/newbellabox",
-    "documentation_url": "https://github.com/mohammedalhmed/newbellabox/wiki",
+    "support_url": "https://github.com/mohammedalhmed/bellabox-salla-theme",
+    "documentation_url": "https://github.com/mohammedalhmed/bellabox-salla-theme#readme",
     "colors": {
       "primary": "#E91E63",
       "secondary": "#FCE4EC",

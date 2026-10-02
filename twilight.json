@@ -1,18 +1,100 @@
 {
-  "name": { "ar": "BellaBox", "en": "BellaBox" },
-  "repository": "https://github.com/mohammedalhmed/newbellabox",
+  "name": {
+    "ar": "BellaBox",
+    "en": "BellaBox"
+  },
+  "repository": "https://github.com/mohammedalhmed/bellabox-salla-theme",
   "author_email": "support@bellabox.com",
-  "features": ["mega-menu", "fonts", "color", "breadcrumb", "filters", "component-testimonials", "component-products-slider", "component-store-features"],
+  "features": [
+    "mega-menu",
+    "fonts",
+    "color",
+    "breadcrumb",
+    "filters",
+    "component-testimonials",
+    "component-products-slider",
+    "component-store-features"
+  ],
   "settings": [
-    { "id": "header_is_sticky", "type": "boolean", "format": "switch", "label": "تثبيت الرأس أثناء التمرير", "value": true, "selected": true },
-    { "id": "topnav_is_dark", "type": "boolean", "format": "switch", "label": "تفعيل الشريط العلوي الداكن", "value": true, "selected": true },
-    { "id": "important_links", "type": "boolean", "format": "switch", "label": "عرض روابط الصفحات المهمة", "value": true, "selected": true },
-    { "id": "show_editorial_banner", "type": "boolean", "format": "switch", "label": "عرض شريط اكتشاف المنتجات في الرئيسية", "value": true, "selected": true },
-    { "id": "product_show_breadcrumbs", "type": "boolean", "format": "switch", "label": "إظهار مسار التنقل في صفحة المنتج", "value": true, "selected": true },
-    { "id": "product_index_show_breadcrumbs", "type": "boolean", "format": "switch", "label": "إظهار مسار التنقل في قوائم المنتجات", "value": true, "selected": true },
-    { "id": "enable_add_product_toast", "type": "boolean", "format": "switch", "label": "إظهار إشعار الإضافة للسلة", "value": true, "selected": true },
-    { "id": "sticky_add_to_cart", "type": "boolean", "format": "switch", "label": "تثبيت زر الإضافة للسلة على الجوال", "value": true, "selected": true },
-    { "id": "show_tags", "type": "boolean", "format": "switch", "label": "إظهار وسوم المنتج", "value": true, "selected": true },
-    { "id": "footer_is_dark", "type": "boolean", "format": "switch", "label": "تفعيل التذييل الداكن", "value": true, "selected": true }
+    {
+      "id": "header_is_sticky",
+      "type": "boolean",
+      "format": "switch",
+      "label": "تثبيت الرأس أثناء التمرير",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "topnav_is_dark",
+      "type": "boolean",
+      "format": "switch",
+      "label": "تفعيل الشريط العلوي الداكن",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "important_links",
+      "type": "boolean",
+      "format": "switch",
+      "label": "عرض روابط الصفحات المهمة",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "show_editorial_banner",
+      "type": "boolean",
+      "format": "switch",
+      "label": "عرض شريط اكتشاف المنتجات في الرئيسية",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "product_show_breadcrumbs",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار مسار التنقل في صفحة المنتج",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "product_index_show_breadcrumbs",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار مسار التنقل في قوائم المنتجات",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "enable_add_product_toast",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار إشعار الإضافة للسلة",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "sticky_add_to_cart",
+      "type": "boolean",
+      "format": "switch",
+      "label": "تثبيت زر الإضافة للسلة على الجوال",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "show_tags",
+      "type": "boolean",
+      "format": "switch",
+      "label": "إظهار وسوم المنتج",
+      "value": true,
+      "selected": true
+    },
+    {
+      "id": "footer_is_dark",
+      "type": "boolean",
+      "format": "switch",
+      "label": "تفعيل التذييل الداكن",
+      "value": true,
+      "selected": true
+    }
   ]
 }

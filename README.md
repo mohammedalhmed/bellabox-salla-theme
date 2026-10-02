@@ -8,7 +8,7 @@
 
 **Conversion-focused Arabic beauty-store theme for the Salla Twilight engine.**
 
-[Theme Config](twilight.json) · [Product Page](src/views/pages/product/single.twig) · [Cart](src/views/pages/cart.twig) · [Main JS](src/assets/js/main.js)
+[Store Reference](https://bellaboxksa.com/) · [Theme Config](twilight.json) · [Product Page](src/views/pages/product/single.twig) · [Cart](src/views/pages/cart.twig) · [Main JS](src/assets/js/main.js)
 
 ثيم BellaBox متوافق مع **Salla Twilight Theme Engine** لمتاجر الجمال والعناية. يعتمد على صفحات Twilight الرسمية ومكوّنات Salla الجاهزة، مع واجهة عربية RTL تركّز على وضوح الاكتشاف، تفاصيل المنتج، التواصل، والتحويل على الجوال.
 

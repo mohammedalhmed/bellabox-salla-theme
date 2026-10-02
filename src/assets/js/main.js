@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.querySelectorAll('.search-trigger').forEach(function (button) {
     button.addEventListener('click', function () {
-      if (window.salla && salla.event) salla.event.dispatch('search::open');
+      if (window.salla && window.salla.event) window.salla.event.dispatch('search::open');
     });
   });
 
@@ -70,10 +70,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.querySelectorAll('[data-wishlist-id]').forEach(function (button) {
     button.addEventListener('click', function () {
-      if (!window.salla || !salla.wishlist || !salla.wishlist.toggle) return;
+      if (!window.salla || !window.salla.wishlist || !window.salla.wishlist.toggle) return;
       var productId = button.getAttribute('data-wishlist-id');
       button.disabled = true;
-      Promise.resolve(salla.wishlist.toggle(productId)).then(function () {
+      Promise.resolve(window.salla.wishlist.toggle(productId)).then(function () {
         var active = !button.classList.contains('active');
         button.classList.toggle('active', active);
         button.setAttribute('aria-pressed', String(active));
@@ -90,7 +90,9 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', function () {
       var image = document.getElementById('product-main-image');
       if (!image) return;
-      image.src = button.getAttribute('data-image-src');
+      var imageSrc = button.getAttribute('data-image-src');
+      if (!imageSrc) return;
+      image.src = imageSrc;
       image.alt = button.getAttribute('data-image-alt') || image.alt;
       document.querySelectorAll('.product-thumb').forEach(function (item) {
         item.classList.remove('is-active');

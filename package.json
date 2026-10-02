@@ -31,8 +31,9 @@
   "scripts": {
     "dev": "salla theme preview",
     "preview": "salla theme preview",
-    "build": "salla theme doctor",
-    "publish": "salla theme publish"
+    "build": "npm run check",
+    "publish": "salla theme publish",
+    "check": "node scripts/validate-theme.mjs && node --check src/assets/js/main.js"
   },
   "devDependencies": {
     "sass": "^1.69.0",

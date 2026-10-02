@@ -1,5 +1,15 @@
 # BellaBox Theme 2.1
 
+![Salla](https://img.shields.io/badge/Salla-Twilight-004D40?style=flat-square)
+![Twig](https://img.shields.io/badge/Twig-Templates-339933?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
+![RTL](https://img.shields.io/badge/Arabic_RTL-111111?style=flat-square)
+![Version](https://img.shields.io/badge/Version-2.1.0-E91E63?style=flat-square)
+
+**Conversion-focused Arabic beauty-store theme for the Salla Twilight engine.**
+
+[Theme Config](twilight.json) · [Product Page](src/views/pages/product/single.twig) · [Cart](src/views/pages/cart.twig) · [Main JS](src/assets/js/main.js)
+
 ثيم BellaBox متوافق مع **Salla Twilight Theme Engine** لمتاجر الجمال والعناية. يعتمد على صفحات Twilight الرسمية ومكوّنات Salla الجاهزة، مع واجهة عربية RTL تركّز على وضوح الاكتشاف، تفاصيل المنتج، التواصل، والتحويل على الجوال.
 
 ## Portfolio Proof

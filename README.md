@@ -1,5 +1,7 @@
 # BellaBox Theme 2.1
 
+![Portfolio cover](docs/portfolio/cover.svg)
+
 ![Salla](https://img.shields.io/badge/Salla-Twilight-004D40?style=flat-square)
 ![Twig](https://img.shields.io/badge/Twig-Templates-339933?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=111)
